@@ -1,0 +1,491 @@
+{
+  "n_shelves": 9,
+  "n_trays": 14,
+  "time_horizon_len": 200,
+  "trays": [
+    {
+      "shelf": 1,
+      "tasks": [
+        {
+          "start": 3,
+          "end": 6,
+          "duration": 1,
+          "type": "planting"
+        },
+        {
+          "start": 7,
+          "end": 12,
+          "duration": 1,
+          "type": "other"
+        },
+        {
+          "start": 13,
+          "end": 15,
+          "duration": 1,
+          "type": "other"
+        },
+        {
+          "start": 24,
+          "end": 24,
+          "duration": 2,
+          "type": "other"
+        },
+        {
+          "start": 29,
+          "end": 29,
+          "duration": 2,
+          "type": "harvest"
+        }
+      ]
+    },
+    {
+      "shelf": 2,
+      "tasks": [
+        {
+          "start": 2,
+          "end": 6,
+          "duration": 2,
+          "type": "planting"
+        },
+        {
+          "start": 2,
+          "end": 3,
+          "duration": 2,
+          "type": "other"
+        },
+        {
+          "start": 10,
+          "end": 11,
+          "duration": 2,
+          "type": "other"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "duration": 2,
+          "type": "other"
+        },
+        {
+          "start": 151,
+          "end": 153,
+          "duration": 2,
+          "type": "harvest"
+        }
+      ]
+    },
+    {
+      "shelf": 3,
+      "tasks": [
+        {
+          "start": 19,
+          "end": 21,
+          "duration": 1,
+          "type": "planting"
+        },
+        {
+          "start": 1,
+          "end": 1,
+          "duration": 2,
+          "type": "other"
+        },
+        {
+          "start": 5,
+          "end": 7,
+          "duration": 2,
+          "type": "other"
+        },
+        {
+          "start": 30,
+          "end": 33,
+          "duration": 1,
+          "type": "other"
+        },
+        {
+          "start": 36,
+          "end": 38,
+          "duration": 1,
+          "type": "harvest"
+        }
+      ]
+    },
+    {
+      "shelf": 1,
+      "tasks": [
+        {
+          "start": 41,
+          "end": 43,
+          "duration": 2,
+          "type": "planting"
+        },
+        {
+          "start": 8,
+          "end": 11,
+          "duration": 1,
+          "type": "other"
+        },
+        {
+          "start": 11,
+          "end": 16,
+          "duration": 2,
+          "type": "other"
+        },
+        {
+          "start": 22,
+          "end": 26,
+          "duration": 2,
+          "type": "other"
+        },
+        {
+          "start": 89,
+          "end": 94,
+          "duration": 1,
+          "type": "harvest"
+        }
+      ]
+    },
+    {
+      "shelf": 4,
+      "tasks": [
+        {
+          "start": 24,
+          "end": 26,
+          "duration": 1,
+          "type": "planting"
+        },
+        {
+          "start": 27,
+          "end": 30,
+          "duration": 1,
+          "type": "other"
+        },
+        {
+          "start": 41,
+          "end": 46,
+          "duration": 1,
+          "type": "other"
+        },
+        {
+          "start": 49,
+          "end": 52,
+          "duration": 1,
+          "type": "other"
+        },
+        {
+          "start": 53,
+          "end": 56,
+          "duration": 2,
+          "type": "harvest"
+        }
+      ]
+    },
+    {
+      "shelf": 5,
+      "tasks": [
+        {
+          "start": 44,
+          "end": 47,
+          "duration": 1,
+          "type": "planting"
+        },
+        {
+          "start": 21,
+          "end": 26,
+          "duration": 1,
+          "type": "other"
+        },
+        {
+          "start": 42,
+          "end": 46,
+          "duration": 1,
+          "type": "other"
+        },
+        {
+          "start": 63,
+          "end": 68,
+          "duration": 1,
+          "type": "other"
+        },
+        {
+          "start": 68,
+          "end": 69,
+          "duration": 1,
+          "type": "harvest"
+        }
+      ]
+    },
+    {
+      "shelf": 3,
+      "tasks": [
+        {
+          "start": 69,
+          "end": 72,
+          "duration": 1,
+          "type": "planting"
+        },
+        {
+          "start": 1,
+          "end": 4,
+          "duration": 1,
+          "type": "other"
+        },
+        {
+          "start": 25,
+          "end": 27,
+          "duration": 2,
+          "type": "other"
+        },
+        {
+          "start": 39,
+          "end": 42,
+          "duration": 1,
+          "type": "other"
+        },
+        {
+          "start": 48,
+          "end": 49,
+          "duration": 1,
+          "type": "harvest"
+        }
+      ]
+    },
+    {
+      "shelf": 6,
+      "tasks": [
+        {
+          "start": 72,
+          "end": 75,
+          "duration": 2,
+          "type": "planting"
+        },
+        {
+          "start": 17,
+          "end": 19,
+          "duration": 1,
+          "type": "other"
+        },
+        {
+          "start": 33,
+          "end": 33,
+          "duration": 1,
+          "type": "other"
+        },
+        {
+          "start": 46,
+          "end": 47,
+          "duration": 1,
+          "type": "other"
+        },
+        {
+          "start": 53,
+          "end": 57,
+          "duration": 2,
+          "type": "harvest"
+        }
+      ]
+    },
+    {
+      "shelf": 7,
+      "tasks": [
+        {
+          "start": 55,
+          "end": 59,
+          "duration": 1,
+          "type": "planting"
+        },
+        {
+          "start": 64,
+          "end": 68,
+          "duration": 1,
+          "type": "other"
+        },
+        {
+          "start": 70,
+          "end": 72,
+          "duration": 1,
+          "type": "other"
+        },
+        {
+          "start": 71,
+          "end": 74,
+          "duration": 1,
+          "type": "other"
+        },
+        {
+          "start": 74,
+          "end": 77,
+          "duration": 1,
+          "type": "harvest"
+        }
+      ]
+    },
+    {
+      "shelf": 4,
+      "tasks": [
+        {
+          "start": 82,
+          "end": 84,
+          "duration": 1,
+          "type": "planting"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "duration": 2,
+          "type": "other"
+        },
+        {
+          "start": 52,
+          "end": 58,
+          "duration": 2,
+          "type": "other"
+        },
+        {
+          "start": 66,
+          "end": 68,
+          "duration": 1,
+          "type": "other"
+        },
+        {
+          "start": 70,
+          "end": 74,
+          "duration": 1,
+          "type": "harvest"
+        }
+      ]
+    },
+    {
+      "shelf": 1,
+      "tasks": [
+        {
+          "start": 146,
+          "end": 146,
+          "duration": 1,
+          "type": "planting"
+        },
+        {
+          "start": 2,
+          "end": 3,
+          "duration": 1,
+          "type": "other"
+        },
+        {
+          "start": 5,
+          "end": 9,
+          "duration": 1,
+          "type": "other"
+        },
+        {
+          "start": 14,
+          "end": 15,
+          "duration": 2,
+          "type": "other"
+        },
+        {
+          "start": 17,
+          "end": 21,
+          "duration": 1,
+          "type": "harvest"
+        }
+      ]
+    },
+    {
+      "shelf": 8,
+      "tasks": [
+        {
+          "start": 40,
+          "end": 43,
+          "duration": 1,
+          "type": "planting"
+        },
+        {
+          "start": 89,
+          "end": 93,
+          "duration": 1,
+          "type": "other"
+        },
+        {
+          "start": 89,
+          "end": 91,
+          "duration": 2,
+          "type": "other"
+        },
+        {
+          "start": 120,
+          "end": 122,
+          "duration": 2,
+          "type": "other"
+        },
+        {
+          "start": 121,
+          "end": 127,
+          "duration": 2,
+          "type": "harvest"
+        }
+      ]
+    },
+    {
+      "shelf": 3,
+      "tasks": [
+        {
+          "start": 123,
+          "end": 126,
+          "duration": 1,
+          "type": "planting"
+        },
+        {
+          "start": 25,
+          "end": 30,
+          "duration": 2,
+          "type": "other"
+        },
+        {
+          "start": 53,
+          "end": 53,
+          "duration": 2,
+          "type": "other"
+        },
+        {
+          "start": 57,
+          "end": 59,
+          "duration": 2,
+          "type": "other"
+        },
+        {
+          "start": 67,
+          "end": 69,
+          "duration": 1,
+          "type": "harvest"
+        }
+      ]
+    },
+    {
+      "shelf": 9,
+      "tasks": [
+        {
+          "start": 99,
+          "end": 102,
+          "duration": 1,
+          "type": "planting"
+        },
+        {
+          "start": 35,
+          "end": 40,
+          "duration": 2,
+          "type": "other"
+        },
+        {
+          "start": 91,
+          "end": 93,
+          "duration": 2,
+          "type": "other"
+        },
+        {
+          "start": 94,
+          "end": 96,
+          "duration": 1,
+          "type": "harvest"
+        }
+      ]
+    }
+  ]
+}
