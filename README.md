@@ -56,6 +56,7 @@ Usage:
 
 The code is distributed under the GNU General Public License v 3.0 (see the `LICENSE` file).
 The code also ships header files of libraries:
+
     * `nlohmann/json`, distributed under the MIT license.
     * `jarro2783/cxxopts`, distributed under the MIT license.
     * `ikalnytskyi/termcolor`, distributed under the BSD license.
