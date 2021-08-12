@@ -19,8 +19,10 @@ namespace elevator {
     for(const auto& es : initial) {
       if(es.tray && es.task) {
         if(current_tray != *es.tray || current_task != *es.task) {
-          const auto idx = std::make_tuple(*es.tray, *es.task, es.time);
-          x[xi.left.at(idx)].set(GRB_DoubleAttr_Start, 1.0);
+          if(*es.tray != Instance::dummy_id) {
+            const auto idx = std::make_tuple(*es.tray, *es.task, es.time);
+            x[xi.left.at(idx)].set(GRB_DoubleAttr_Start, 1.0);
+          }
           current_tray = *es.tray;
           current_task = *es.task;
         }
