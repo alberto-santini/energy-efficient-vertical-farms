@@ -1,6 +1,14 @@
 # Energy efficient automatic vertical farms
 
-This repository contains the companion code and instances for the paper "Energy efficient automatic vertical farms" by [Maxence Delorme](https://www.tilburguniversity.edu/staff/m-delorme) and [Alberto Santini](https://santini.in/).
+This repository contains the companion code and instances for the paper "[Energy efficient automated vertical farms](https://santini.in/files/papers/delorme-santini-2021.pdf)" by [Maxence Delorme](https://www.tilburguniversity.edu/staff/m-delorme) and [Alberto Santini](https://santini.in/).
+
+```
+@techreport{delorme_santini_vf_2021,
+    title={{Energy-efficient automated vertical farms}},
+    author={Delorme, Maxence and Santini, Alberto},
+    year={2021}
+}
+```
 
 <p align="center">
     <img src="https://github.com/alberto-santini/energy-efficient-automatic-vertical-farms/blob/master/vf.jpg?raw=true" alt="Vertical Farm"/><br>
