@@ -3,10 +3,13 @@
 This repository contains the companion code and instances for the paper "[Energy efficient automated vertical farms](https://santini.in/files/papers/delorme-santini-2021.pdf)" by [Maxence Delorme](https://www.tilburguniversity.edu/staff/m-delorme) and [Alberto Santini](https://santini.in/).
 
 ```
-@techreport{delorme_santini_vf_2021,
-    title={{Energy-efficient automated vertical farms}},
-    author={Delorme, Maxence and Santini, Alberto},
-    year={2021}
+@article{delorme_santini_vf_2021,
+  title={Energy-efficient automated vertical farms},
+  author={Delorme, Maxence and Santini, Alberto},
+  journal={Omega},
+  volume={109},
+  doi={10.1016/j.omega.2022.102611},
+  year={2022}
 }
 ```
 
