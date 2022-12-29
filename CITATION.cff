@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the corresponding paper as below."
+authors:
+- family-names: "Delorme"
+  given-names: "Maxence"
+- family-names: "Santini"
+  given-names: "Alberto"
+  orcid: "https://orcid.org/0000-0002-0440-0357"
+title: "Energy-efficient automated vertical farms"
+doi: 10.5281/zenodo.5185902
+version: 0.3
+date-released: 2021-08-12
+url: "https://github.com/alberto-santini/energy-efficient-vertical-farms"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Delorme"
+    given-names: "Maxence"
+  - family-names: "Santini"
+    given-names: "Alberto"
+    orcid: "https://orcid.org/0000-0002-0440-0357"
+  title: "Energy-efficient automated vertical farms"
+  doi: 10.1016/j.omega.2022.102611
+  journal: "Omega"
+  year: 2022
+  volume: 109
